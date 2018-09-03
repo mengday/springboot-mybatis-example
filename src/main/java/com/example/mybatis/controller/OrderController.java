@@ -46,9 +46,9 @@ public class OrderController {
         return JSON.toJSONString(pageInfo);
     }
 
-    @GetMapping("/users")
-    public String getUsers(){
-        List<User> users = userMapper.selectAll();
-        return JSON.toJSONString(users);
-    }
+//    @GetMapping("/users")
+//    public String getUsers(){
+//        List<User> users = userMapper.selectAll();
+//        return JSON.toJSONString(users);
+//    }
 }
